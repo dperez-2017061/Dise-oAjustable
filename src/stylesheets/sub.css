@@ -1,0 +1,59 @@
+.back-sub{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../img/jardin.jpg);
+  }
+  .cont-sub{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+  }
+  .back-h1{
+    background-color: #00e0ff;
+    font-weight: 620;
+    padding: 10px;
+    margin-top: 15%;
+  }
+  .plant-sub{
+    margin-top: 10%;
+    flex-wrap: wrap;
+  }
+  @media(max-width: 800px){
+    .cont-sub{
+        padding-top: 5%;
+    }
+  }
+  @media(max-width:1070px) {
+    .plant-sub{
+        margin-top: 15%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+  }
+  @media(max-width:720px) {
+    .plant-sub{
+        margin-top: 25%;
+    }
+    .back-h1{
+        font-size: 2.7rem;
+        margin-top: 33%;
+    }
+  }
+  @media(max-width:440px){
+    .plant-sub{
+        margin-top: 32%;
+    }
+  }
+  @media(max-width:340px){
+    .plant-sub{
+        margin-top: 45%;
+    }
+  }

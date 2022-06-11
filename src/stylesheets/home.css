@@ -1,0 +1,229 @@
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../img/jardin.jpg);
+  }
+  .cont{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+.text{
+    font-weight: 640;
+    font-size: 60px;
+}
+
+.ali{
+    font-weight: 600;
+    font-size: 40px;
+}
+.pad{
+    display: flex;
+    position: relative;
+}
+.body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+}
+.hr{
+    margin: 50px 20%;
+    opacity: 1;
+}
+.backg{
+    background-color: #052069;
+    display: grid;
+    grid-template-columns: 33% 33% 32%;
+    padding: 80px 0;
+    align-items: center;
+}
+.p{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.padd{
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: 646;
+    text-transform: uppercase;
+    line-height: 5rem;
+    align-items: center;
+    letter-spacing: 0.12rem;
+    word-spacing: 0.30em;
+    padding: 0 10%;
+}
+.div{
+    padding: 0 10%;
+}
+.plantas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titl{
+    font-weight: 600;
+    font-family:  'Times New Roman';
+    font-size: 45px;
+}
+.info{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+}
+.venta{
+    background-color: #00495c;
+    height: 90px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+.venta-text{
+    font-size: 2.5rem;
+    font-weight: 646;
+    text-transform: uppercase;
+    line-height: 3rem;
+    letter-spacing: 0.12rem;
+    word-spacing: 0.30em;
+    padding-left: 5%;
+}
+.venta-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid black;
+    margin-left:13%;
+    margin-right: 8%;
+
+}
+.venta-texto{
+    font-size: 2.5rem;
+    font-weight: 646;
+    text-transform: uppercase;
+    line-height: 3rem;
+    letter-spacing: 0.12rem;
+    word-spacing: 0.30em;
+    padding: 3% 0;
+    margin: 0;
+}
+.venta-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.venta-p{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.venta-info{
+    padding-left: 13%;
+    padding-right: 8%;
+}
+.venta-img{
+    height: 270px;
+    width: 270px;
+    margin: 10%;
+}
+.venta-cimg{
+    padding-right: 25%;
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width:1400px){
+    .body{
+        display: grid;
+        grid-template-columns: 60% 50%;
+        justify-items: center;
+    }
+    .color{
+        max-width: 90%;
+        min-width: 90%;
+    }
+    .backg{
+        grid-template-columns: 100%;
+    }
+    .padd{
+        font-size: 2rem;
+    }
+    .p{
+        padding-bottom: 3%;
+    }
+    .padd{
+        padding-bottom: 3%;
+    }
+    .venta-cont{
+        margin: 0;
+        padding: 0 5%;
+    }
+    .venta-text{
+        margin: 0;
+    }
+    .venta-info{
+        padding: 0;
+    }
+    
+}
+
+@media(max-width:1070px){
+    .venta-img{
+        height: 220px;
+        width: 220px;
+        margin: 10%;
+    }
+    .plantas{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+@media(max-width:905px){
+    .info{
+    grid-template-columns: 100%;
+    align-items: flex-start;
+    }
+    
+    .venta-cimg{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .venta-img{
+        margin: 0;
+    }
+}
+@media(max-width:770px){
+    .body{
+        flex-direction: column;
+        grid-template-columns: 100%;
+    }
+}
+@media(max-width:600px){
+    .venta-img{
+        height: 45%;
+        max-width: 45%;
+    }
+    .venta-cont{
+        padding: 0 5%;
+    }
+    .venta-text{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .padd{
+        font-size: 1.5rem;
+    }
+    
+}
+

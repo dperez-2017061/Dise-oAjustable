@@ -1,0 +1,16 @@
+.color{
+    background-color: #00495c;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+.product{
+    height: 100px;
+    padding: 10px 25px;
+}
+.col{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
